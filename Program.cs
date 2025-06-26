@@ -11,7 +11,7 @@ public interface ITable
     void PutItem();
 }
 
-// 2. Затем конкретные реализации продуктов ConcreteAbstractProduct
+// Конкретные реализации интерфейсов продуктов ConcreteAbstractProduct
 class ModernChair : IChair
 {
     public void SitOn() => Console.WriteLine("Сесть на стул");
