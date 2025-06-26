@@ -55,7 +55,7 @@ class AlternativeFurnitureFactory : IFurnitureFactory
 // Client работа с фабриками для создания продуктов 
 class FurnitureStore
 {
-    private readonly IFurnitureFactory _factory;
+    private readonly IFurnitureFactory _factory; // ссылка на интерфейс фабрики
 
     public FurnitureStore(IFurnitureFactory factory) => _factory = factory;
 
